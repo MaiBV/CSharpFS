@@ -9,7 +9,6 @@ namespace CSharpFS.Models
     {
         private string _nome;
 
-        private string _Sobrenome;
         private int _idade;
 
         public string Nome 
@@ -29,7 +28,7 @@ namespace CSharpFS.Models
 
         public string Sobrenome { get; set; }
 
-        public string NomeCompleto => $"{Nome} {Sobrenome}.ToUpper()";
+        public string NomeCompleto => $"{Nome.ToUpper()} {Sobrenome.ToUpper()}";
 
 
         public int Idade 
