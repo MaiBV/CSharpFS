@@ -1,0 +1,14 @@
+C:\Área de Trabalho\CSharpFS\bin\Debug\net8.0\CSharpFS.exe
+C:\Área de Trabalho\CSharpFS\bin\Debug\net8.0\CSharpFS.deps.json
+C:\Área de Trabalho\CSharpFS\bin\Debug\net8.0\CSharpFS.runtimeconfig.json
+C:\Área de Trabalho\CSharpFS\bin\Debug\net8.0\CSharpFS.dll
+C:\Área de Trabalho\CSharpFS\bin\Debug\net8.0\CSharpFS.pdb
+C:\Área de Trabalho\CSharpFS\obj\Debug\net8.0\CSharpFS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Área de Trabalho\CSharpFS\obj\Debug\net8.0\CSharpFS.AssemblyInfoInputs.cache
+C:\Área de Trabalho\CSharpFS\obj\Debug\net8.0\CSharpFS.AssemblyInfo.cs
+C:\Área de Trabalho\CSharpFS\obj\Debug\net8.0\CSharpFS.csproj.CoreCompileInputs.cache
+C:\Área de Trabalho\CSharpFS\obj\Debug\net8.0\CSharpFS.dll
+C:\Área de Trabalho\CSharpFS\obj\Debug\net8.0\refint\CSharpFS.dll
+C:\Área de Trabalho\CSharpFS\obj\Debug\net8.0\CSharpFS.pdb
+C:\Área de Trabalho\CSharpFS\obj\Debug\net8.0\CSharpFS.genruntimeconfig.cache
+C:\Área de Trabalho\CSharpFS\obj\Debug\net8.0\ref\CSharpFS.dll
