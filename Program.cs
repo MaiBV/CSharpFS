@@ -1,12 +1,8 @@
 ﻿using CSharpFS.Models;
 
-Pessoa p1 = new Pessoa();
-p1.Nome = "Maiara";
-p1.Sobrenome = "Brito";
+Pessoa p1 = new Pessoa(nome: "Maiara", sobrenome: "Brito");
 
-Pessoa p2 = new Pessoa();
-p2.Nome = "Leonardo";
-p2.Sobrenome = "Buta";
+Pessoa p2 = new Pessoa(nome: "Leonardo", sobrenome: "Buta");
 
 Curso cursoDeIngles = new Curso();
 cursoDeIngles.Nome = "Inglês";

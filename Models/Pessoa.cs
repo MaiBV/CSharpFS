@@ -7,8 +7,14 @@ namespace CSharpFS.Models
 {
     public class Pessoa
     {
-        private string _nome;
+        
+        public Pessoa(string nome, string sobrenome)
+        {
+            Nome = nome;
+            Sobrenome = sobrenome;
+        }
 
+        private string _nome;
         private int _idade;
 
         public string Nome 
