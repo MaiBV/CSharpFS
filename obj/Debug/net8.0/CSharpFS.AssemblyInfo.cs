@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpFS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d989e9edc228ffe06cd1697e787aa6485a408b07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ad086825d76055f969daebbf16620477108f416")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpFS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpFS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
