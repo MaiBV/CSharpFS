@@ -29,9 +29,12 @@ namespace CSharpFS.Models
         public void ListarAlunos()
         {
             Console.WriteLine($"Alunos do curso de {Nome}");
-            foreach (Pessoa aluno in Alunos)
+
+            for (int Count = 0; Count < Alunos.Count; Count++)
             {
-                Console.WriteLine(aluno.NomeCompleto);
+                // string texto = "N° " + Count + " - " + Alunos[Count].NomeCompleto;
+                string texto = $"N° {Count + 1} - {Alunos[Count].NomeCompleto}";
+                Console.WriteLine(texto);
             }
         }
     }
