@@ -2,13 +2,95 @@
 using System.Globalization;
 
 
-string[] linhas = File.ReadAllLines("Arquivos/arquivosLeitura.txt");
+Dictionary<string, string> estados = new Dictionary<string, string>();
 
-foreach (string linha in linhas)
+estados.Add("SP", "São Paulo");
+estados.Add("BA", "Bahia");
+estados.Add("MG", "Minas Gerais");
+
+foreach (var item in estados)
 {
-    Console.WriteLine(linha);
+    Console.WriteLine($"Sigla: {item.Key} - Estado: {item.Value}");
 }
 
+Console.WriteLine("-----------------");
+
+estados.Remove("BA");
+estados["SP"] = "São Paulo - valor alterado";
+estados.Add("RJ", "Rio de janeiro");
+
+foreach (var item in estados)
+{
+    Console.WriteLine($"Sigla: {item.Key} - Estado: {item.Value}");
+}
+
+string Sigla = "SP";
+Console.WriteLine($"Verificando o elemento: {Sigla}");
+
+if (estados.ContainsKey(Sigla))
+{
+    Console.WriteLine($"Valor existente: {Sigla}");
+}
+else
+{
+    Console.WriteLine($"Valor não encontrado: É seguro adicionar {Sigla}");
+}   
+
+
+
+
+
+
+
+
+
+
+
+// LIFO - Last IN First OUT
+
+// Stack<int> pilha = new Stack<int>();
+
+// pilha.Push(4);
+// pilha.Push(6);
+// pilha.Push(8);
+// pilha.Push(10);
+
+// foreach (int item in pilha)
+// {
+//     Console.WriteLine(item);
+// }
+
+// Console.WriteLine($"Removendo o elemento: {pilha.Pop()}");
+
+// pilha.Push(20);
+
+// foreach (int item in pilha)
+// {
+//     Console.WriteLine(item);
+// }
+
+
+// FIFO - First IN First OUT
+
+// Queue<int> fila = new Queue<int>();
+
+// fila.Enqueue(2);
+// fila.Enqueue(4);
+// fila.Enqueue(6);
+// fila.Enqueue(8);
+
+// foreach(int item in fila)
+// {
+//     Console.WriteLine(item);
+// }
+
+// Console.WriteLine($"Removendo o elemento: {fila.Dequeue()}");
+// fila.Enqueue(10);
+
+// foreach(int item in fila)
+// {
+//     Console.WriteLine(item);
+// }
 
 
 
@@ -38,6 +120,39 @@ foreach (string linha in linhas)
 
 
 
+
+
+
+
+
+//new ExemploExcecao().Metodo1();
+
+
+// try
+// {
+//     string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+
+//     foreach (string linha in linhas)
+//     {
+//         Console.WriteLine(linha);
+//     }
+// }
+// catch (FileNotFoundException ex)
+// {
+//     Console.WriteLine($"Ocorreu um erro de leitura do arquivo. Arquivo não encontrado. {ex.Message}");
+// }
+// catch (DirectoryNotFoundException ex)
+// {
+//     Console.WriteLine($"Ocorreu um erro de leitura do arquivo. Caminho da pasta não encontrado." + ex.Message);
+// }
+// catch (Exception ex)
+// {
+//     Console.WriteLine($"Ocorreu um erro de leitura do arquivo. {ex.Message}");
+// }
+// finally
+// {
+//     Console.WriteLine("Chegou até aqui.");
+// }
 
 
 // string dataString = "2024-17-09 16:35";
