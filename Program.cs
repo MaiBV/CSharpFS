@@ -2,48 +2,98 @@
 using System.Globalization;
 
 
-Dictionary<string, string> estados = new Dictionary<string, string>();
+int numero = 10;
+bool ehPar = false;
 
-estados.Add("SP", "São Paulo");
-estados.Add("BA", "Bahia");
-estados.Add("MG", "Minas Gerais");
+// IF Ternário
+ehPar = numero % 2 == 0 ? true : false;
 
-foreach (var item in estados)
-{
-    Console.WriteLine($"Sigla: {item.Key} - Estado: {item.Value}");
-}
-
-Console.WriteLine("-----------------");
-
-estados.Remove("BA");
-estados["SP"] = "São Paulo - valor alterado";
-estados.Add("RJ", "Rio de janeiro");
-
-foreach (var item in estados)
-{
-    Console.WriteLine($"Sigla: {item.Key} - Estado: {item.Value}");
-}
-
-string Sigla = "SP";
-Console.WriteLine($"Verificando o elemento: {Sigla}");
-
-if (estados.ContainsKey(Sigla))
-{
-    Console.WriteLine($"Valor existente: {Sigla}");
-}
-else
-{
-    Console.WriteLine($"Valor não encontrado: É seguro adicionar {Sigla}");
-}   
+Console.WriteLine(ehPar ? $"O número {numero} é par." : $"O número {numero} é ímpar.");
 
 
 
+// if (numero % 2 == 0)
+// {
+//     Console.WriteLine($"O número {numero} é par.");
+// }
+// else
+// {
+//     Console.WriteLine($"O número {numero} é ímpar.");
+// }
+
+
+// Pessoa p1 = new Pessoa("Leonardo", "Buta");
+
+// (string nome, string sobrenome) = p1;
+
+// Console.WriteLine($"{nome} {sobrenome}");
+
+
+// LeituraArquivo arquivo = new LeituraArquivo();
+
+// var (sucesso, linhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+// if (sucesso)
+// {
+//     //Console.WriteLine("Quantidade de linhas do arquivo:" + quantidadeDeLinhas);
+//     foreach (var linha in linhasArquivo)
+//     {
+//         Console.WriteLine(linha);
+//     }
+// }
+// else
+// {
+//     Console.WriteLine("Ocorreu um erro ao ler o arquivo.");
+// }
 
 
 
+// (int, string, string, decimal) tupla = (1, "Leonardo", "Buta", 1.80M);
+
+//ValueTuple<int, string, string, decimal> outroExemploTupla = (1, "Leonardo", "Buta", 1.80M);
+
+//var outroExemploTuplaTuplaCreate = Tuple.Create(1, "Leonardo", "Buta", 1.80M);
 
 
+// Console.WriteLine($"Id: {tupla.Item1}");
+// Console.WriteLine($"Nome: {tupla.Item2}");
+// Console.WriteLine($"Sobrenome: {tupla.Item3}");
+// Console.WriteLine($"Altura: {tupla.Item4}");
 
+
+// Dictionary<string, string> estados = new Dictionary<string, string>();
+
+// estados.Add("SP", "São Paulo");
+// estados.Add("BA", "Bahia");
+// estados.Add("MG", "Minas Gerais");
+
+// foreach (var item in estados)
+// {
+//     Console.WriteLine($"Sigla: {item.Key} - Estado: {item.Value}");
+// }
+
+// Console.WriteLine("-----------------");
+
+// estados.Remove("BA");
+// estados["SP"] = "São Paulo - valor alterado";
+// estados.Add("RJ", "Rio de janeiro");
+
+// foreach (var item in estados)
+// {
+//     Console.WriteLine($"Sigla: {item.Key} - Estado: {item.Value}");
+// }
+
+// string Sigla = "SP";
+// Console.WriteLine($"Verificando o elemento: {Sigla}");
+
+// if (estados.ContainsKey(Sigla))
+// {
+//     Console.WriteLine($"Valor existente: {Sigla}");
+// }
+// else
+// {
+//     Console.WriteLine($"Valor não encontrado: É seguro adicionar {Sigla}");
+// }   
 
 
 // LIFO - Last IN First OUT
@@ -91,38 +141,6 @@ else
 // {
 //     Console.WriteLine(item);
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //new ExemploExcecao().Metodo1();
