@@ -12,6 +12,7 @@ Console.WriteLine(ehPar ? $"O número {numero} é par." : $"O número {numero} �
 
 
 
+
 // if (numero % 2 == 0)
 // {
 //     Console.WriteLine($"O número {numero} é par.");

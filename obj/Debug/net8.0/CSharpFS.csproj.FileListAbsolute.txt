@@ -13,3 +13,6 @@ C:\Área de Trabalho\CSharpFS\obj\Debug\net8.0\CSharpFS.pdb
 C:\Área de Trabalho\CSharpFS\obj\Debug\net8.0\CSharpFS.genruntimeconfig.cache
 C:\Área de Trabalho\CSharpFS\obj\Debug\net8.0\ref\CSharpFS.dll
 C:\Área de Trabalho\CSharpFS\obj\Debug\net8.0\CSharpFS.sourcelink.json
+C:\Área de Trabalho\CSharpFS\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Área de Trabalho\CSharpFS\obj\Debug\net8.0\CSharpFS.csproj.AssemblyReference.cache
+C:\Área de Trabalho\CSharpFS\obj\Debug\net8.0\CSharpFS.csproj.Up2Date
